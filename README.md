@@ -14,8 +14,11 @@ The project was developed by:
 - Nicolai Herrmann
 - Robin Hackh
 - Jason Patrick Duffy
+
 My concrete responsibility was the functionality of the book returns. 
+
 (see "src\main\java\swt\library\ReturnBookController.java" and "src\main\resources\swt\library\returnBook.fxml")
+
 I:
 - ...created the GUI and logic for the return of the books
 - ...helped create the DB table for the list of borrowed books and conceptionalized the return logic
@@ -25,6 +28,7 @@ I:
 The login details for the admin account are:
 - username: admin
 - password: test
+
 The details for the user account are:
 - username: Max2003
 - password: MusterPW
