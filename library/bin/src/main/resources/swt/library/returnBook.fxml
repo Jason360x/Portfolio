@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="swt.library.ReturnBookController">
+   <children>
+      <AnchorPane prefHeight="800.0" prefWidth="1280.0">
+         <children>
+            <Label alignment="CENTER_RIGHT" layoutX="14.0" layoutY="23.0" prefHeight="17.0" prefWidth="1250.0" text="Logged in as: [NAME] in Role: [ROLE]" />
+            <Pane layoutX="14.0" layoutY="40.0" prefHeight="675.0" prefWidth="1250.0" style="-fx-background-color: #5387FE;">
+               <children>
+                  <Label layoutX="14.0" text="Currently checked out books">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="1042.0" layoutY="35.0" text="Rate selected book">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <TableView fx:id="table_checkedOutBooks" layoutX="14.0" layoutY="35.0" prefHeight="625.0" prefWidth="1000.0">
+                    <columns>
+                      <TableColumn fx:id="tableCol_title" prefWidth="160.0" text="Title" />
+                      <TableColumn fx:id="tableCol_author" prefWidth="160.0" text="Author" />
+                        <TableColumn fx:id="tableCol_year" prefWidth="100.0" text="Year" />
+                        <TableColumn fx:id="tableCol_isbn" prefWidth="160.0" text="ISBN" />
+                        <TableColumn fx:id="tableCol_desc" prefWidth="160.0" text="Description" />
+                        <TableColumn fx:id="tableCol_tags" prefWidth="160.0" text="Tags" />
+                        <TableColumn fx:id="tableCol_rating" prefWidth="100.0" text="Rating" />
+                    </columns>
+                  </TableView>
+                  <Slider fx:id="slider_bookRating" blockIncrement="1.0" layoutX="1024.0" layoutY="68.0" majorTickUnit="1.0" max="5.0" minorTickCount="0" prefHeight="37.0" prefWidth="215.0" showTickLabels="true" showTickMarks="true" snapToTicks="true" />
+                  <Button fx:id="btn_saveRating" layoutX="1024.0" layoutY="108.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="215.0" text="Save rating">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="btn_returnBook" layoutX="1024.0" layoutY="159.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="215.0" text="Return selected book">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Button>
+               </children>
+            </Pane>
+            <Button fx:id="btnFrontPage" layoutX="14.0" layoutY="730.0" mnemonicParsing="false" onMouseClicked="#openFrontPage" prefHeight="56.0" prefWidth="250.0" text="Return to main page">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn_revertChanges" layoutX="739.0" layoutY="730.0" mnemonicParsing="false" prefHeight="56.0" prefWidth="250.0" text="Revert Changes">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn_confirmChanges" layoutX="1014.0" layoutY="730.0" mnemonicParsing="false" prefHeight="56.0" prefWidth="250.0" text="Confirm Changes">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</VBox>

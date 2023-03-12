@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="swt.library.BorrowBookController">
+   <children>
+      <AnchorPane prefHeight="800.0" prefWidth="1280.0">
+         <children>
+            <Label alignment="CENTER_RIGHT" layoutX="14.0" layoutY="23.0" prefHeight="17.0" prefWidth="1250.0" text="Logged in as: [NAME] in Role: [ROLE]" />
+            <Pane layoutX="14.0" layoutY="40.0" prefHeight="675.0" prefWidth="1250.0" style="-fx-background-color: #5387FE;">
+               <children>
+                  <Label layoutX="14.0" layoutY="8.0" text="Currently available books" textFill="WHITE">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+                  <TableView fx:id="table_availableBooks" layoutX="14.0" layoutY="43.0" prefHeight="400.0" prefWidth="1000.0">
+                    <columns>
+                      <TableColumn fx:id="tableColAvailable_title" prefWidth="160.0" text="Title" />
+                      <TableColumn fx:id="tableColAvailable_author" prefWidth="160.0" text="Author" />
+                        <TableColumn fx:id="tableColAvailable_year" prefWidth="100.0" text="Year" />
+                        <TableColumn fx:id="tableColAvailable_isbn" prefWidth="160.0" text="ISBN" />
+                        <TableColumn fx:id="tableColAvailable_desc" prefWidth="160.0" text="Description" />
+                        <TableColumn fx:id="tableColAvailable_tags" prefWidth="160.0" text="Tags" />
+                        <TableColumn fx:id="tableColAvailable_rating" prefWidth="100.0" text="Rating" />
+                    </columns>
+                  </TableView>
+                  <Label layoutX="14.0" layoutY="476.0" text="Selected books" textFill="WHITE">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+                  <TableView fx:id="table_selectedBooks" layoutX="14.0" layoutY="511.0" prefHeight="150.0" prefWidth="1000.0">
+                     <columns>
+                        <TableColumn fx:id="tableColSelected_title" prefWidth="160.0" text="Title" />
+                        <TableColumn fx:id="tableColSelected_author" prefWidth="160.0" text="Author" />
+                        <TableColumn fx:id="tableColSelected_year" prefWidth="100.0" text="Year" />
+                        <TableColumn fx:id="tableColSelected_isbn" prefWidth="160.0" text="ISBN" />
+                        <TableColumn fx:id="tableColSelected_desc" prefWidth="160.0" text="Description" />
+                        <TableColumn fx:id="tableColSelected_tags" prefWidth="160.0" text="Tags" />
+                        <TableColumn fx:id="tableColSelected_rating" prefWidth="100.0" text="Rating" />
+                     </columns>
+                  </TableView>
+                  <Pane fx:id="p_searchItems" layoutX="1014.0" layoutY="43.0" prefHeight="400.0" prefWidth="235.0">
+                     <children>
+                        <Label layoutX="12.0" layoutY="10.0" text="Title" textFill="WHITE">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="txt_searchTitle" layoutX="72.0" layoutY="11.0" prefHeight="25.0" prefWidth="149.0">
+                           <padding>
+                              <Insets bottom="-1.0" left="2.0" right="-1.0" top="-1.0" />
+                           </padding>
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </TextField>
+                        <Label layoutX="11.0" layoutY="41.0" text="Author" textFill="WHITE">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="txt_searchAuthor" layoutX="72.0" layoutY="42.0" prefHeight="25.0" prefWidth="149.0">
+                           <padding>
+                              <Insets bottom="-1.0" left="2.0" right="-1.0" top="-1.0" />
+                           </padding>
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </TextField>
+                        <Label layoutX="10.0" layoutY="72.0" text="ISBN" textFill="WHITE">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="txt_searchISBN" layoutX="72.0" layoutY="73.0" prefHeight="25.0" prefWidth="149.0">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                           <padding>
+                              <Insets bottom="-1.0" left="2.0" right="-1.0" top="-1.0" />
+                           </padding>
+                        </TextField>
+                        <Label layoutX="10.0" layoutY="104.0" text="Tag" textFill="WHITE">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <ComboBox fx:id="cb_searchTag" layoutX="72.0" layoutY="104.0" prefHeight="25.0" prefWidth="149.0" />
+                        <Label layoutX="10.0" layoutY="154.0" text="Year of Publication" textFill="WHITE">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="181.0" text="from" textFill="WHITE">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <ComboBox fx:id="cb_searchFromYear" layoutX="52.0" layoutY="182.0" prefHeight="25.0" prefWidth="68.0" />
+                        <Label layoutX="128.0" layoutY="181.0" text="to" textFill="WHITE">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <ComboBox fx:id="cb_searchToYear" layoutX="153.0" layoutY="182.0" prefHeight="25.0" prefWidth="68.0" />
+                        <Label layoutX="10.0" layoutY="231.0" text="Rating greater than" textFill="WHITE">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <ComboBox fx:id="cb_searchFromYear1" layoutX="171.0" layoutY="232.0" prefHeight="25.0" prefWidth="47.0" />
+                        <Button fx:id="btn_searchBook" layoutX="10.0" layoutY="360.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="215.0" text="Search">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </Pane>
+                  <Pane layoutX="1014.0" layoutY="511.0" prefHeight="150.0" prefWidth="235.0">
+                     <children>
+                        <Label layoutX="10.0" layoutY="10.0" text="Borrowtime" textFill="WHITE">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <ComboBox fx:id="cb_searchFromYear2" layoutX="111.0" layoutY="10.0" prefHeight="25.0" prefWidth="110.0" promptText="4 Weeks" />
+                        <Button fx:id="btn_borrowBook" layoutX="10.0" layoutY="110.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="215.0" text="Borrow books">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </Pane>
+               </children>
+            </Pane>
+            <Button fx:id="btnFrontPage" layoutX="14.0" layoutY="730.0" mnemonicParsing="false" onMouseClicked="#openFrontPage" prefHeight="56.0" prefWidth="250.0" text="Return to main page">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</VBox>

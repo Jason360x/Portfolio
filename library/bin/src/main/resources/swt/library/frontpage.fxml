@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.SplitMenuButton?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Circle?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="swt.library.FrontPageController">
+   <children>
+      <AnchorPane layoutX="10.0" layoutY="10.0">
+         <children>
+            <AnchorPane layoutX="-16.0" layoutY="-7.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="806.0" prefWidth="1286.0">
+               <children>
+                  <Pane layoutY="-3.0" prefHeight="58.0" prefWidth="1286.0" style="-fx-background-color: blue;">
+                     <children>
+                        <Label fx:id="lblUsername" layoutX="866.0" layoutY="5.0" prefHeight="48.0" prefWidth="76.0" text="Username" textAlignment="CENTER" textFill="WHITE" />
+                        <Label fx:id="lblPassword" layoutX="1038.0" layoutY="21.0" text="Password" textFill="WHITE" />
+                        <Circle fill="#6cb8ff" layoutX="38.0" layoutY="29.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
+                        <ToolBar layoutX="137.0" layoutY="11.0" prefHeight="40.0" prefWidth="345.0" style="-fx-background-color: blue;">
+                          <items>
+                            <Button fx:id="btnAdd" mnemonicParsing="false" onMouseClicked="#openAdd" text="Add Book" />
+                              <Button fx:id="btnDelete" mnemonicParsing="false" onMouseClicked="#openDelete" text="Delete Book" />
+                              <Button fx:id="btnBorrow" mnemonicParsing="false" onMouseClicked="#openBorrow" text="Borrow Book" />
+                              <Button fx:id="btnReturn" mnemonicParsing="false" onMouseClicked="#openReturn" text="Return Book" />
+                          </items>
+                        </ToolBar>
+                        <TextField fx:id="txtName" layoutX="930.0" layoutY="17.0" prefHeight="25.0" prefWidth="96.0" />
+                        <TextField fx:id="txtPassword" layoutX="1102.0" layoutY="17.0" prefHeight="25.0" prefWidth="96.0" />
+                        <Button fx:id="btnLogin" layoutX="1220.0" layoutY="17.0" mnemonicParsing="false" onMouseClicked="#login" text="Login" />
+                        <Label fx:id="lblFalseLogin" layoutX="643.0" layoutY="21.0" prefHeight="17.0" prefWidth="216.0" textFill="WHITE" />
+                     </children>
+                  </Pane>
+                  <Pane layoutY="55.0" prefHeight="70.0" prefWidth="1286.0" style="-fx-background-color: grey;">
+                     <children>
+                        <CheckBox layoutX="1161.0" layoutY="48.0" mnemonicParsing="false" text="Erweiterte Suche" textFill="WHITE" />
+                        <CheckBox layoutX="23.0" layoutY="47.0" mnemonicParsing="false" text="Kinder" textFill="WHITE" />
+                        <CheckBox layoutX="410.0" layoutY="48.0" mnemonicParsing="false" text="Aktuelles" textFill="WHITE" />
+                        <CheckBox layoutX="105.0" layoutY="48.0" mnemonicParsing="false" text="Jugendbibliothek" textFill="WHITE" />
+                        <CheckBox layoutX="246.0" layoutY="48.0" mnemonicParsing="false" text="Erwachsenenbibliothek" textFill="WHITE" />
+                        <TextField layoutX="23.0" layoutY="14.0" prefHeight="25.0" prefWidth="50.0" text="SUCHE" />
+                        <SplitMenuButton layoutX="80.0" layoutY="14.0" mnemonicParsing="false" text="Bibliothekskatalog">
+                          <items>
+                            <MenuItem mnemonicParsing="false" text="Action 1" />
+                            <MenuItem mnemonicParsing="false" text="Action 2" />
+                          </items>
+                        </SplitMenuButton>
+                     </children>
+                  </Pane>
+                  <ScrollPane layoutX="1025.0" layoutY="184.0" prefHeight="290.0" prefWidth="227.0">
+                     <content>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="290.0" prefWidth="208.0" />
+                     </content>
+                  </ScrollPane>
+                  <ScrollPane layoutX="1025.0" layoutY="550.0" prefHeight="173.0" prefWidth="227.0">
+                     <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="172.0" prefWidth="208.0" />
+                     </content>
+                  </ScrollPane>
+                  <TextField layoutX="23.0" layoutY="150.0" prefHeight="26.0" prefWidth="177.0" text="Ihre Suche erzielte XYZ Treffer:" />
+                  <TableView layoutX="67.0" layoutY="184.0" prefHeight="539.0" prefWidth="915.0">
+                    <columns>
+                      <TableColumn prefWidth="155.0" text="Title" />
+                      <TableColumn minWidth="4.0" prefWidth="155.0" text="Author" />
+                        <TableColumn prefWidth="108.0" text="Year" />
+                        <TableColumn prefWidth="159.0" text="ISBN" />
+                        <TableColumn minWidth="0.0" prefWidth="129.0" text="Description" />
+                        <TableColumn prefWidth="128.0" text="Tags" />
+                        <TableColumn prefWidth="79.0" text="Rating" />
+                    </columns>
+                  </TableView>
+                  <Label layoutX="1025.0" layoutY="155.0" prefHeight="17.0" prefWidth="112.0" text="Top 10 Bücher" />
+                  <Label layoutX="1025.0" layoutY="524.0" text="Für Sie empfohlen" />
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
