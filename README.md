@@ -37,7 +37,7 @@ I:
 - ...created the GUI and logic for the return of the books.
 - ...helped create the DB table for the list of borrowed books and conceptionalized the return logic.
 - ...created the rating system with a DB table.
-- ...helped other teammembers with various problems.
+- ...helped other team members with various problems.
 
 The login details for the admin account are:
 - username: admin
@@ -75,7 +75,7 @@ The game can run in 2 modes:
 - Local
 - Server
 
-This can be set by changing the script in line 15 to localLogic or remoteLogic respectively.
+This can be set by changing the script in line 15 to "localLogic" or "remoteLogic" respectively.
 
 Server logic communicates with a remote server set up by the lecturer to define a playing field and decide which fields to open, etc.
 
@@ -95,7 +95,7 @@ My RPG Tool is specifically set up for two different homebrew RPGs me and a frie
 
 With over 9000 executable lines of code, the project is fairly big.
 
-Note that every line of code was created while I was first learning to program in 2019 and as such, much of the code is very messy and ignores many programming and OOP principles and best practices. Even then, I think it is still useful as a showcase of a fully working program I created.
+**IMPORTANT:** Each line of this code was created while I was first learning to program back in 2019 and as such, much of the code is very messy and ignores many programming and OOP principles and best practices. Even then, I think it is still useful as a showcase of a fully working program I created over a longer period of time. Just don't take this as an indicator for my current abilities or work style.
 
 The project is written in C# using Visual Studio. The GUI was created using Windows Forms.
 
