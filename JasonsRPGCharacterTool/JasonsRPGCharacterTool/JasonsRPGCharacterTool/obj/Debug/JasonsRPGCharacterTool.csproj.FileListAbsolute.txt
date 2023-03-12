@@ -1,0 +1,37 @@
+C:\Users\jason\Source\Repos\JasonsRPGChracterTool\JasonsRPGCharacterTool\JasonsRPGCharacterTool\bin\Debug\Jason's RPG Tool.exe.config
+C:\Users\jason\Source\Repos\JasonsRPGChracterTool\JasonsRPGCharacterTool\JasonsRPGCharacterTool\bin\Debug\Jason's RPG Tool.exe
+C:\Users\jason\Source\Repos\JasonsRPGChracterTool\JasonsRPGCharacterTool\JasonsRPGCharacterTool\bin\Debug\Jason's RPG Tool.pdb
+C:\Users\jason\Source\Repos\JasonsRPGChracterTool\JasonsRPGCharacterTool\JasonsRPGCharacterTool\bin\Debug\de\Jason's RPG Tool.resources.dll
+C:\Users\jason\Source\Repos\JasonsRPGChracterTool\JasonsRPGCharacterTool\JasonsRPGCharacterTool\obj\Debug\JasonsRPGCharacterTool.shopTool.resources
+C:\Users\jason\Source\Repos\JasonsRPGChracterTool\JasonsRPGCharacterTool\JasonsRPGCharacterTool\obj\Debug\JasonsRPGCharacterTool.tesPnp.resources
+C:\Users\jason\Source\Repos\JasonsRPGChracterTool\JasonsRPGCharacterTool\JasonsRPGCharacterTool\obj\Debug\JasonsRPGCharacterTool.Properties.strings.resources
+C:\Users\jason\Source\Repos\JasonsRPGChracterTool\JasonsRPGCharacterTool\JasonsRPGCharacterTool\obj\Debug\JasonsRPGCharacterTool.rpgChoice.resources
+C:\Users\jason\Source\Repos\JasonsRPGChracterTool\JasonsRPGCharacterTool\JasonsRPGCharacterTool\obj\Debug\JasonsRPGCharacterTool.Properties.Resources.resources
+C:\Users\jason\Source\Repos\JasonsRPGChracterTool\JasonsRPGCharacterTool\JasonsRPGCharacterTool\obj\Debug\JasonsRPGCharacterTool.Properties.strings.de.resources
+C:\Users\jason\Source\Repos\JasonsRPGChracterTool\JasonsRPGCharacterTool\JasonsRPGCharacterTool\obj\Debug\JasonsRPGCharacterTool.csproj.GenerateResource.cache
+C:\Users\jason\Source\Repos\JasonsRPGChracterTool\JasonsRPGCharacterTool\JasonsRPGCharacterTool\obj\Debug\de\Jason's RPG Tool.resources.dll
+C:\Users\jason\Source\Repos\JasonsRPGChracterTool\JasonsRPGCharacterTool\JasonsRPGCharacterTool\obj\Debug\Jason's RPG Tool.exe
+C:\Users\jason\Source\Repos\JasonsRPGChracterTool\JasonsRPGCharacterTool\JasonsRPGCharacterTool\obj\Debug\Jason's RPG Tool.pdb
+C:\Users\jason\Source\Repos\JasonsRPGChracterTool\JasonsRPGCharacterTool\JasonsRPGCharacterTool\obj\Debug\JasonsRPGCharacterTool.asteriusPnP.resources
+C:\Users\jason\source\repos\JasonsRPGChracterTool\JasonsRPGCharacterTool\JasonsRPGCharacterTool\obj\Debug\JasonsRPGCharacterTool.csprojAssemblyReference.cache
+C:\Users\jason\source\repos\JasonsRPGChracterTool\JasonsRPGCharacterTool\JasonsRPGCharacterTool\obj\Debug\JasonsRPGCharacterTool.asteriusKnowledge.resources
+C:\Users\jason\source\repos\JasonsRPGChracterTool\JasonsRPGCharacterTool\JasonsRPGCharacterTool\obj\Debug\JasonsRPGCharacterTool.csproj.CoreCompileInputs.cache
+E:\OneDrive\OneDrive - bwedu\Programming\Visual Studio\JasonsRPGChracterTool\JasonsRPGCharacterTool\JasonsRPGCharacterTool\bin\Debug\Jason's RPG Tool.exe.config
+E:\OneDrive\OneDrive - bwedu\Programming\Visual Studio\JasonsRPGChracterTool\JasonsRPGCharacterTool\JasonsRPGCharacterTool\bin\Debug\Jason's RPG Tool.exe
+E:\OneDrive\OneDrive - bwedu\Programming\Visual Studio\JasonsRPGChracterTool\JasonsRPGCharacterTool\JasonsRPGCharacterTool\bin\Debug\Jason's RPG Tool.pdb
+E:\OneDrive\OneDrive - bwedu\Programming\Visual Studio\JasonsRPGChracterTool\JasonsRPGCharacterTool\JasonsRPGCharacterTool\bin\Debug\de\Jason's RPG Tool.resources.dll
+E:\OneDrive\OneDrive - bwedu\Programming\Visual Studio\JasonsRPGChracterTool\JasonsRPGCharacterTool\JasonsRPGCharacterTool\obj\Debug\JasonsRPGCharacterTool.csproj.AssemblyReference.cache
+E:\OneDrive\OneDrive - bwedu\Programming\Visual Studio\JasonsRPGChracterTool\JasonsRPGCharacterTool\JasonsRPGCharacterTool\obj\Debug\JasonsRPGCharacterTool.csproj.SuggestedBindingRedirects.cache
+E:\OneDrive\OneDrive - bwedu\Programming\Visual Studio\JasonsRPGChracterTool\JasonsRPGCharacterTool\JasonsRPGCharacterTool\obj\Debug\JasonsRPGCharacterTool.asteriusKnowledge.resources
+E:\OneDrive\OneDrive - bwedu\Programming\Visual Studio\JasonsRPGChracterTool\JasonsRPGCharacterTool\JasonsRPGCharacterTool\obj\Debug\JasonsRPGCharacterTool.shopTool.resources
+E:\OneDrive\OneDrive - bwedu\Programming\Visual Studio\JasonsRPGChracterTool\JasonsRPGCharacterTool\JasonsRPGCharacterTool\obj\Debug\JasonsRPGCharacterTool.asteriusPnP.resources
+E:\OneDrive\OneDrive - bwedu\Programming\Visual Studio\JasonsRPGChracterTool\JasonsRPGCharacterTool\JasonsRPGCharacterTool\obj\Debug\JasonsRPGCharacterTool.tesPnp.resources
+E:\OneDrive\OneDrive - bwedu\Programming\Visual Studio\JasonsRPGChracterTool\JasonsRPGCharacterTool\JasonsRPGCharacterTool\obj\Debug\JasonsRPGCharacterTool.Properties.strings.resources
+E:\OneDrive\OneDrive - bwedu\Programming\Visual Studio\JasonsRPGChracterTool\JasonsRPGCharacterTool\JasonsRPGCharacterTool\obj\Debug\JasonsRPGCharacterTool.rpgChoice.resources
+E:\OneDrive\OneDrive - bwedu\Programming\Visual Studio\JasonsRPGChracterTool\JasonsRPGCharacterTool\JasonsRPGCharacterTool\obj\Debug\JasonsRPGCharacterTool.Properties.Resources.resources
+E:\OneDrive\OneDrive - bwedu\Programming\Visual Studio\JasonsRPGChracterTool\JasonsRPGCharacterTool\JasonsRPGCharacterTool\obj\Debug\JasonsRPGCharacterTool.Properties.strings.de.resources
+E:\OneDrive\OneDrive - bwedu\Programming\Visual Studio\JasonsRPGChracterTool\JasonsRPGCharacterTool\JasonsRPGCharacterTool\obj\Debug\JasonsRPGCharacterTool.csproj.GenerateResource.cache
+E:\OneDrive\OneDrive - bwedu\Programming\Visual Studio\JasonsRPGChracterTool\JasonsRPGCharacterTool\JasonsRPGCharacterTool\obj\Debug\JasonsRPGCharacterTool.csproj.CoreCompileInputs.cache
+E:\OneDrive\OneDrive - bwedu\Programming\Visual Studio\JasonsRPGChracterTool\JasonsRPGCharacterTool\JasonsRPGCharacterTool\obj\Debug\de\Jason's RPG Tool.resources.dll
+E:\OneDrive\OneDrive - bwedu\Programming\Visual Studio\JasonsRPGChracterTool\JasonsRPGCharacterTool\JasonsRPGCharacterTool\obj\Debug\Jason's RPG Tool.exe
+E:\OneDrive\OneDrive - bwedu\Programming\Visual Studio\JasonsRPGChracterTool\JasonsRPGCharacterTool\JasonsRPGCharacterTool\obj\Debug\Jason's RPG Tool.pdb

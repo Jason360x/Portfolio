@@ -1,0 +1,735 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="characterButtonText" xml:space="preserve">
+    <value>Characters</value>
+  </data>
+  <data name="charAgeText" xml:space="preserve">
+    <value>Age:</value>
+  </data>
+  <data name="charAgilityText" xml:space="preserve">
+    <value>Agility:</value>
+  </data>
+  <data name="charAlchemyText" xml:space="preserve">
+    <value>Alchemy:</value>
+  </data>
+  <data name="charAlterationText" xml:space="preserve">
+    <value>Alteration:</value>
+  </data>
+  <data name="charArcheryText" xml:space="preserve">
+    <value>Archery:</value>
+  </data>
+  <data name="charAttribBaseText" xml:space="preserve">
+    <value>Base:</value>
+  </data>
+  <data name="charAttribBonusText" xml:space="preserve">
+    <value>Bonus:</value>
+  </data>
+  <data name="charAttribText" xml:space="preserve">
+    <value>Attributes</value>
+  </data>
+  <data name="charChariText" xml:space="preserve">
+    <value>Charisma:</value>
+  </data>
+  <data name="charConcentText" xml:space="preserve">
+    <value>Concentration:</value>
+  </data>
+  <data name="charConjurationText" xml:space="preserve">
+    <value>Conjuration:</value>
+  </data>
+  <data name="charCraftingText" xml:space="preserve">
+    <value>Crafting:</value>
+  </data>
+  <data name="charDestructionText" xml:space="preserve">
+    <value>Destruction:</value>
+  </data>
+  <data name="charDexterText" xml:space="preserve">
+    <value>Dexterity:</value>
+  </data>
+  <data name="charDrinkingText" xml:space="preserve">
+    <value>Drinking:</value>
+  </data>
+  <data name="charElectResText" xml:space="preserve">
+    <value>Electr. Resistance:</value>
+  </data>
+  <data name="charEnchantingText" xml:space="preserve">
+    <value>Enchanting:</value>
+  </data>
+  <data name="charEnduraText" xml:space="preserve">
+    <value>Endurance:</value>
+  </data>
+  <data name="charFireResText" xml:space="preserve">
+    <value>Fire Resistance:</value>
+  </data>
+  <data name="charFrostResText" xml:space="preserve">
+    <value>Frost Resistance:</value>
+  </data>
+  <data name="charGenderText" xml:space="preserve">
+    <value>Gender:</value>
+  </data>
+  <data name="charHeavWeapText" xml:space="preserve">
+    <value>Heavy Weapons:</value>
+  </data>
+  <data name="charHeightText" xml:space="preserve">
+    <value>Height:</value>
+  </data>
+  <data name="charHPCurrText" xml:space="preserve">
+    <value>HP Current:</value>
+  </data>
+  <data name="charHPMaxText" xml:space="preserve">
+    <value>HP Max:</value>
+  </data>
+  <data name="charIllusionText" xml:space="preserve">
+    <value>Illusion:</value>
+  </data>
+  <data name="charInitText" xml:space="preserve">
+    <value>Initative:</value>
+  </data>
+  <data name="charIntelliText" xml:space="preserve">
+    <value>Intelligence:</value>
+  </data>
+  <data name="charLightWeapText" xml:space="preserve">
+    <value>Light Weapons:</value>
+  </data>
+  <data name="charLockpickText" xml:space="preserve">
+    <value>Lockpicking:</value>
+  </data>
+  <data name="charMagArmText" xml:space="preserve">
+    <value>Mag. Armor:</value>
+  </data>
+  <data name="charMagCurrText" xml:space="preserve">
+    <value>Magicka Current:</value>
+  </data>
+  <data name="charMagMaxText" xml:space="preserve">
+    <value>Magicka Max:</value>
+  </data>
+  <data name="charMonsterText" xml:space="preserve">
+    <value>Monster:</value>
+  </data>
+  <data name="charNameText" xml:space="preserve">
+    <value>Name:</value>
+  </data>
+  <data name="charNotesText" xml:space="preserve">
+    <value>Notes</value>
+  </data>
+  <data name="charParryText" xml:space="preserve">
+    <value>Parry:</value>
+  </data>
+  <data name="charPerceptText" xml:space="preserve">
+    <value>Perception:</value>
+  </data>
+  <data name="charPhysArmText" xml:space="preserve">
+    <value>Phys. Armor:</value>
+  </data>
+  <data name="charPickpocketText" xml:space="preserve">
+    <value>Pickpocket:</value>
+  </data>
+  <data name="charPoisResText" xml:space="preserve">
+    <value>Poison Resistance:</value>
+  </data>
+  <data name="charRaceText" xml:space="preserve">
+    <value>Race:</value>
+  </data>
+  <data name="charRestorationText" xml:space="preserve">
+    <value>Restoration:</value>
+  </data>
+  <data name="charRollReqText" xml:space="preserve">
+    <value>Parry:</value>
+  </data>
+  <data name="charSingingText" xml:space="preserve">
+    <value>Singing:</value>
+  </data>
+  <data name="charSmithingText" xml:space="preserve">
+    <value>Smithing:</value>
+  </data>
+  <data name="charSneakText" xml:space="preserve">
+    <value>Sneak:</value>
+  </data>
+  <data name="charSpeechText" xml:space="preserve">
+    <value>Speech:</value>
+  </data>
+  <data name="charStrengthText" xml:space="preserve">
+    <value>Strength:</value>
+  </data>
+  <data name="charStyleText" xml:space="preserve">
+    <value>Style:</value>
+  </data>
+  <data name="charTalentsText" xml:space="preserve">
+    <value>Talents</value>
+  </data>
+  <data name="charThrowText" xml:space="preserve">
+    <value>Throwing:</value>
+  </data>
+  <data name="charTrapsText" xml:space="preserve">
+    <value>Trapping:</value>
+  </data>
+  <data name="charUnarmedText" xml:space="preserve">
+    <value>Unarmed:</value>
+  </data>
+  <data name="chooseRPG" xml:space="preserve">
+    <value>Please choose the RPG you play.</value>
+  </data>
+  <data name="creditsButtonText" xml:space="preserve">
+    <value>Credits</value>
+  </data>
+  <data name="creditsText" xml:space="preserve">
+    <value>Programmed and designed by:</value>
+  </data>
+  <data name="exitText" xml:space="preserve">
+    <value>Quit</value>
+  </data>
+  <data name="idealPiceSizeInfoText" xml:space="preserve">
+    <value>Ideal pic ratio: 3x4</value>
+  </data>
+  <data name="rollButtonText" xml:space="preserve">
+    <value>Roll Dice</value>
+  </data>
+  <data name="rollHelpText" xml:space="preserve">
+    <value>Click on a dice to roll.</value>
+  </data>
+  <data name="companionChar1Name" xml:space="preserve">
+    <value>Companion 1</value>
+  </data>
+  <data name="companionChar2Name" xml:space="preserve">
+    <value>Companion 2</value>
+  </data>
+  <data name="companionChar3Name" xml:space="preserve">
+    <value>Companion 3</value>
+  </data>
+  <data name="customRollButtonText" xml:space="preserve">
+    <value>Roll Dice</value>
+  </data>
+  <data name="customRollText" xml:space="preserve">
+    <value>Custom Dice Roll</value>
+  </data>
+  <data name="enemyChar1Name" xml:space="preserve">
+    <value>Enemy 1</value>
+  </data>
+  <data name="enemyChar2Name" xml:space="preserve">
+    <value>Enemy 2</value>
+  </data>
+  <data name="enemyChar3Name" xml:space="preserve">
+    <value>Enemy 3</value>
+  </data>
+  <data name="enemyChar4Name" xml:space="preserve">
+    <value>Enemy 4</value>
+  </data>
+  <data name="enemyChar5Name" xml:space="preserve">
+    <value>Enemy 5</value>
+  </data>
+  <data name="enemyChar6Name" xml:space="preserve">
+    <value>Enemy 6</value>
+  </data>
+  <data name="enemyChar7Name" xml:space="preserve">
+    <value>Enemy 7</value>
+  </data>
+  <data name="enemyChar8Name" xml:space="preserve">
+    <value>Enemy 8</value>
+  </data>
+  <data name="maximumText" xml:space="preserve">
+    <value>Maximum</value>
+  </data>
+  <data name="minimumText" xml:space="preserve">
+    <value>Minimum</value>
+  </data>
+  <data name="playerChar1Name" xml:space="preserve">
+    <value>Player 1</value>
+  </data>
+  <data name="playerChar2Name" xml:space="preserve">
+    <value>Player 2</value>
+  </data>
+  <data name="playerChar3Name" xml:space="preserve">
+    <value>Player 3</value>
+  </data>
+  <data name="playerChar4Name" xml:space="preserve">
+    <value>Player 4</value>
+  </data>
+  <data name="no" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="save" xml:space="preserve">
+    <value>Save?</value>
+  </data>
+  <data name="saveOrNah" xml:space="preserve">
+    <value>Do you want to save your shop?</value>
+  </data>
+  <data name="shopAmount" xml:space="preserve">
+    <value>Amount</value>
+  </data>
+  <data name="shopAsteriusSave" xml:space="preserve">
+    <value>Save Asterius</value>
+  </data>
+  <data name="shopLoadSave" xml:space="preserve">
+    <value>Load TXT</value>
+  </data>
+  <data name="shopName" xml:space="preserve">
+    <value>Item Name</value>
+  </data>
+  <data name="shopPrice" xml:space="preserve">
+    <value>Price</value>
+  </data>
+  <data name="shopTESSave" xml:space="preserve">
+    <value>Save TES</value>
+  </data>
+  <data name="yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="shopButton" xml:space="preserve">
+    <value>Shop</value>
+  </data>
+  <data name="shopToolDescript" xml:space="preserve">
+    <value>Create a shop in the shop tool to be able to later load it in the RPG-mode of your choosing.</value>
+  </data>
+  <data name="charActing" xml:space="preserve">
+    <value>Acting:</value>
+  </data>
+  <data name="charCreditsText" xml:space="preserve">
+    <value>Credits</value>
+  </data>
+  <data name="charEndurText" xml:space="preserve">
+    <value>Endurance:</value>
+  </data>
+  <data name="charGun" xml:space="preserve">
+    <value>Weapon:</value>
+  </data>
+  <data name="charGunBonus" xml:space="preserve">
+    <value>Weapon Bonus:</value>
+  </data>
+  <data name="charGunDmg" xml:space="preserve">
+    <value>Weapon Damage:</value>
+  </data>
+  <data name="charGuns" xml:space="preserve">
+    <value>Guns:</value>
+  </data>
+  <data name="charHacking" xml:space="preserve">
+    <value>Hacking:</value>
+  </data>
+  <data name="charInfantery" xml:space="preserve">
+    <value>Infantry:</value>
+  </data>
+  <data name="charIntelText" xml:space="preserve">
+    <value>Intel</value>
+  </data>
+  <data name="charLangFornsh" xml:space="preserve">
+    <value>Fornsh:</value>
+  </data>
+  <data name="charLangLop" xml:space="preserve">
+    <value>Løp:</value>
+  </data>
+  <data name="charLangMekish" xml:space="preserve">
+    <value>Mekish:</value>
+  </data>
+  <data name="charLangUSL" xml:space="preserve">
+    <value>USL:</value>
+  </data>
+  <data name="charLangVulsh" xml:space="preserve">
+    <value>Vulsh:</value>
+  </data>
+  <data name="charLeading" xml:space="preserve">
+    <value>Leading:</value>
+  </data>
+  <data name="charLuckText" xml:space="preserve">
+    <value>Luck:</value>
+  </data>
+  <data name="charLying" xml:space="preserve">
+    <value>Lying:</value>
+  </data>
+  <data name="charMedicine" xml:space="preserve">
+    <value>Medicine:</value>
+  </data>
+  <data name="charOutfit" xml:space="preserve">
+    <value>Outfit:</value>
+  </data>
+  <data name="charOutfitBonus" xml:space="preserve">
+    <value>Outfit Bonus:</value>
+  </data>
+  <data name="charOutfitResist" xml:space="preserve">
+    <value>Outfit Resist:</value>
+  </data>
+  <data name="charOutfitUpgrade" xml:space="preserve">
+    <value>Outfit Upgrade:</value>
+  </data>
+  <data name="charPointsSpent" xml:space="preserve">
+    <value>Points spent:</value>
+  </data>
+  <data name="charRepairing" xml:space="preserve">
+    <value>Repairing:</value>
+  </data>
+  <data name="charSearching" xml:space="preserve">
+    <value>Searching:</value>
+  </data>
+  <data name="charShipControl" xml:space="preserve">
+    <value>Ship Control:</value>
+  </data>
+  <data name="charSleepHPRegen" xml:space="preserve">
+    <value>HP Regen:</value>
+  </data>
+  <data name="charSpaceCombat" xml:space="preserve">
+    <value>Space Combat:</value>
+  </data>
+  <data name="charStrengthAsterius" xml:space="preserve">
+    <value>Strength:</value>
+  </data>
+  <data name="charTrading" xml:space="preserve">
+    <value>Trading:</value>
+  </data>
+  <data name="shipButton" xml:space="preserve">
+    <value>Spaceships</value>
+  </data>
+  <data name="applyClassButton" xml:space="preserve">
+    <value>Apply Class</value>
+  </data>
+  <data name="shipAmmo" xml:space="preserve">
+    <value>Ammo:</value>
+  </data>
+  <data name="shipAP" xml:space="preserve">
+    <value>AP:</value>
+  </data>
+  <data name="shipAPTurn" xml:space="preserve">
+    <value>AP / Move:</value>
+  </data>
+  <data name="shipClass" xml:space="preserve">
+    <value>Class</value>
+  </data>
+  <data name="shipDmg" xml:space="preserve">
+    <value>Damage:</value>
+  </data>
+  <data name="shipFighterBomber" xml:space="preserve">
+    <value>Fighter Bomber</value>
+  </data>
+  <data name="shipHitChance" xml:space="preserve">
+    <value>Hit Chance:</value>
+  </data>
+  <data name="shipHPCurr" xml:space="preserve">
+    <value>HP Current:</value>
+  </data>
+  <data name="shipHPMax" xml:space="preserve">
+    <value>HP Max:</value>
+  </data>
+  <data name="shipIdealPicRatioInfo" xml:space="preserve">
+    <value>Ideal pic ratio: 4x3</value>
+  </data>
+  <data name="shipName" xml:space="preserve">
+    <value>Name:</value>
+  </data>
+  <data name="shipRange" xml:space="preserve">
+    <value>Range:</value>
+  </data>
+  <data name="shipRangeLoss" xml:space="preserve">
+    <value>Loss value:</value>
+  </data>
+  <data name="shipRecon" xml:space="preserve">
+    <value>Recon</value>
+  </data>
+  <data name="shipSkills" xml:space="preserve">
+    <value>Skills</value>
+  </data>
+  <data name="shipSupportFighter" xml:space="preserve">
+    <value>Support Fighter</value>
+  </data>
+  <data name="shipTankfighter" xml:space="preserve">
+    <value>Tankfighter</value>
+  </data>
+  <data name="shiptTactRecon" xml:space="preserve">
+    <value>Tactical Recon</value>
+  </data>
+  <data name="shipWeapon" xml:space="preserve">
+    <value>Weapon</value>
+  </data>
+  <data name="shipWeaponAP" xml:space="preserve">
+    <value>AP:</value>
+  </data>
+  <data name="shipWeaponName" xml:space="preserve">
+    <value>Name:</value>
+  </data>
+  <data name="shipArmor" xml:space="preserve">
+    <value>Armor</value>
+  </data>
+  <data name="shipShield" xml:space="preserve">
+    <value>Shield</value>
+  </data>
+  <data name="charHitChance" xml:space="preserve">
+    <value>Ship Hit Ch.:</value>
+  </data>
+  <data name="upgradeAP" xml:space="preserve">
+    <value>Shipcomputer Upgrade (AP)</value>
+  </data>
+  <data name="upgradeAPFormula" xml:space="preserve">
+    <value>Ship AP * 10</value>
+  </data>
+  <data name="upgradeAPTurn" xml:space="preserve">
+    <value>Thruster Upgrade (AP / Move)</value>
+  </data>
+  <data name="upgradeAPTurnFormula" xml:space="preserve">
+    <value>(100 - AP / Move) * 40</value>
+  </data>
+  <data name="upgradeArmor" xml:space="preserve">
+    <value>Armor Upgrade</value>
+  </data>
+  <data name="upgradeArmorFormula" xml:space="preserve">
+    <value>Armor * 50</value>
+  </data>
+  <data name="upgradeButton" xml:space="preserve">
+    <value>Calculations</value>
+  </data>
+  <data name="upgradeFormula" xml:space="preserve">
+    <value>Formula</value>
+  </data>
+  <data name="upgradeHC" xml:space="preserve">
+    <value>Radarsystem Upgrade (Hit Chance)</value>
+  </data>
+  <data name="upgradeHCFormula" xml:space="preserve">
+    <value>(-20 - Hit Chance) * (- 150)</value>
+  </data>
+  <data name="upgradeInput" xml:space="preserve">
+    <value>Input</value>
+  </data>
+  <data name="upgradeName" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="upgradeResult" xml:space="preserve">
+    <value>Result</value>
+  </data>
+  <data name="upgradeShield" xml:space="preserve">
+    <value>Shield Upgrade</value>
+  </data>
+  <data name="upgradeShieldFormula" xml:space="preserve">
+    <value>Shield * 50</value>
+  </data>
+  <data name="applyStats" xml:space="preserve">
+    <value>Apply Stats</value>
+  </data>
+  <data name="calculateCostsOfUpgrades" xml:space="preserve">
+    <value>Calculate Costs of Upgrades</value>
+  </data>
+  <data name="calculateDamage" xml:space="preserve">
+    <value>Calculate Damage</value>
+  </data>
+  <data name="dealtDamage" xml:space="preserve">
+    <value>Dealt Damage</value>
+  </data>
+  <data name="Lasers" xml:space="preserve">
+    <value>Lasers</value>
+  </data>
+  <data name="Miniguns" xml:space="preserve">
+    <value>Miniguns</value>
+  </data>
+  <data name="Missiles" xml:space="preserve">
+    <value>Missiles</value>
+  </data>
+  <data name="Railgun" xml:space="preserve">
+    <value>Railgun</value>
+  </data>
+  <data name="Torpedos" xml:space="preserve">
+    <value>Torpedos</value>
+  </data>
+  <data name="weaponType" xml:space="preserve">
+    <value>Weapon Type</value>
+  </data>
+  <data name="newVersion" xml:space="preserve">
+    <value>Update available!</value>
+  </data>
+  <data name="charAttackTalents" xml:space="preserve">
+    <value>Attack Talents</value>
+  </data>
+  <data name="charPracticalTalents" xml:space="preserve">
+    <value>Practical Talents</value>
+  </data>
+  <data name="charSocialTalents" xml:space="preserve">
+    <value>Social Talents</value>
+  </data>
+  <data name="knowledge" xml:space="preserve">
+    <value>Knowledge (Max: 5 Points)</value>
+  </data>
+  <data name="knowledgeArchitecture" xml:space="preserve">
+    <value>Architecture</value>
+  </data>
+  <data name="knowledgeAstronomy" xml:space="preserve">
+    <value>Astronomy</value>
+  </data>
+  <data name="knowledgeBionic" xml:space="preserve">
+    <value>Bionic</value>
+  </data>
+  <data name="knowledgeComputers" xml:space="preserve">
+    <value>Computers</value>
+  </data>
+  <data name="knowledgeCriminality" xml:space="preserve">
+    <value>Criminality</value>
+  </data>
+  <data name="knowledgeExplosives" xml:space="preserve">
+    <value>Explosives</value>
+  </data>
+  <data name="knowledgeGuns" xml:space="preserve">
+    <value>Firearms</value>
+  </data>
+  <data name="knowledgeHistory" xml:space="preserve">
+    <value>History</value>
+  </data>
+  <data name="knowledgeMedicine" xml:space="preserve">
+    <value>Medicine</value>
+  </data>
+  <data name="knowledgeMilitary" xml:space="preserve">
+    <value>Military</value>
+  </data>
+  <data name="knowledgePlants" xml:space="preserve">
+    <value>Plants</value>
+  </data>
+  <data name="knowledgePolitics" xml:space="preserve">
+    <value>Politics</value>
+  </data>
+  <data name="knowledgeSciences" xml:space="preserve">
+    <value>Sciences</value>
+  </data>
+  <data name="knowledgeSpaceships" xml:space="preserve">
+    <value>Spaceships</value>
+  </data>
+  <data name="knowledgeTech" xml:space="preserve">
+    <value>Tech</value>
+  </data>
+  <data name="knowledgeTraps" xml:space="preserve">
+    <value>Traps</value>
+  </data>
+  <data name="knowledgeUnarmed" xml:space="preserve">
+    <value>Melee Weapons</value>
+  </data>
+  <data name="languages" xml:space="preserve">
+    <value>Languages (Max: 5 Points)</value>
+  </data>
+  <data name="standaloneKnowledge" xml:space="preserve">
+    <value>Knowledge</value>
+  </data>
+  <data name="standaloneLanguages" xml:space="preserve">
+    <value>Languages</value>
+  </data>
+  <data name="saveToZip" xml:space="preserve">
+    <value>Do you want to save your current Characters?</value>
+  </data>
+  <data name="loadCharsFromZip" xml:space="preserve">
+    <value>Open</value>
+  </data>
+  <data name="saveCharsToZip" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="clearButton" xml:space="preserve">
+    <value>Do you want to clear the stats of this character?</value>
+  </data>
+  <data name="clearButtonHeading" xml:space="preserve">
+    <value>Clear character?</value>
+  </data>
+</root>
