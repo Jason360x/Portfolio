@@ -53,8 +53,8 @@ The project is written in C# using Visual Studio. The GUI was created using Wind
 
 Features:
 - 2 RPGs implemented with their respective rulesets
-- Automatic switch to english language if the current locale is not German
-- Creation of save file using XML
+- Automatic switch to English language if the current locale is not German
+- Creation of save files using XML
 - Import and export of save files using .zip
 - Shop function that allows the creation of an item table and later display in the respective RPG
 - Dice roll function that also allows custom dice
@@ -72,3 +72,14 @@ However, most was written by me and the authors of the file are stated at the be
 
 Note: The final project uses the "Acamo.java" file in "FlightRadar\src\acamo" as its main file.
 
+## Snake
+![Screenshot of Snake](/_screenshots/snake.png)
+
+This Snake game was created over the course of a couple of hours as a way of our IT teacher keeping the advanced students occupied while he went over the basics again with the less advanced students.
+Our only task was to try and create a Snake game in any way we wanted.
+
+I decided to use the Unity Engine as the base for the game and C# as the programming language.
+
+Every piece of code and every asset (save for the Snake logo) was created by me.
+
+The game is designed to always be run at an equal aspect ratio (square). Other ratios work but look wrong. Keep that in mind when trying out the game. The build files are set up to always open in a square window.

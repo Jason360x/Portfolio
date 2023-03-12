@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 7c63e7c8644e6d14ba4da0443631fe4b
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - On My Way
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 31a8b1db40f41b24cad08ec28599069c, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
