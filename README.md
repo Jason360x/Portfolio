@@ -1,7 +1,10 @@
 # Portfolio
 This is my personal portfolio of projects.
 
-## Library Project
+## Study Projects
+These projects were created as part of a module or class of my course.
+
+### Library Project
 ![Screenshot of the frontpage of the library project](/_screenshots/library.png)
 
 The library project was part of the "Softwaretechnik" module in the third semester of my course.
@@ -25,10 +28,10 @@ My concrete responsibility was the functionality of the book returns.
 (see "LibraryProject\src\main\java\swt\library\ReturnBookController.java" and "LibraryProject\src\main\resources\swt\library\returnBook.fxml")
 
 I:
-- ...created the GUI and logic for the return of the books
-- ...helped create the DB table for the list of borrowed books and conceptionalized the return logic
-- ...created the rating system with a DB table
-- ...helped other teammembers with various problems
+- ...created the GUI and logic for the return of the books.
+- ...helped create the DB table for the list of borrowed books and conceptionalized the return logic.
+- ...created the rating system with a DB table.
+- ...helped other teammembers with various problems.
 
 The login details for the admin account are:
 - username: admin
@@ -38,7 +41,23 @@ The details for the user account are:
 - username: Max2003
 - password: MusterPW
 
-## Jason's RPG Tool
+### Flight Radar
+![Screenshot of flight radar in operation](/_screenshots/flightradar.png)
+
+The flight radar was created as part of the lab for the "Objektorientierte Systeme 2" module in the third semester of my course.
+
+It fetches real time plane data from an online API (https://opensky-network.org/api/states/all) and displays each received plane on a map and in a list.
+It is written in Java, the GUI elements are created using JavaFX.
+
+We were given a partially started project to work on, so not every piece of code was written by me and we were also given a custom implementation of the LeafletMap.
+However, most was written by me and the authors of the file are stated at the beginning of each file. If there is nothing stated, the file was written by someone else.
+
+Note: The final project uses the "Acamo.java" file in "FlightRadar\src\acamo" as its main file.
+
+## Personal Projects
+These projects were created because of personal interest.
+
+### Jason's RPG Tool
 ![Screenshot of the Asterius RPG mode of the RPG Tool](/_screenshots/rpgtool.png)
 
 There are various tools for many of the mainstream tabletop RPGs like Dungeons and Dragons available.
@@ -59,20 +78,7 @@ Features:
 - Shop function that allows the creation of an item table and later display in the respective RPG
 - Dice roll function that also allows custom dice
 
-## Flight Radar
-![Screenshot of flight radar in operation](/_screenshots/flightradar.png)
-
-The flight radar was created as part of the lab for the "Objektorientierte Systeme 2" module in the third semester of my course.
-
-It fetches real time plane data from an online API (https://opensky-network.org/api/states/all) and displays each received plane on a map and in a list.
-It is written in Java, the GUI elements are created using JavaFX.
-
-We were given a partially started project to work on, so not every piece of code was written by me and we were also given a custom implementation of the LeafletMap.
-However, most was written by me and the authors of the file are stated at the beginning of each file. If there is nothing stated, the file was written by someone else.
-
-Note: The final project uses the "Acamo.java" file in "FlightRadar\src\acamo" as its main file.
-
-## Snake
+### Snake
 ![Screenshot of Snake](/_screenshots/snake.png)
 
 This Snake game was created over the course of a couple of hours as a way of our IT teacher keeping the advanced students occupied while he went over the basics again with the less advanced students.
