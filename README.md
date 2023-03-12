@@ -5,7 +5,9 @@ This is my personal portfolio of projects.
 These projects were created as part of a module or class of my course.
 
 ### Library Project
-![Screenshot of the frontpage of the library project](/_screenshots/library.png)
+<p align="center">
+  <img src="/_screenshots/library.png" height="500" alt="Screenshot of the frontpage of the library project">
+</p>
 
 The library project was part of the "Softwaretechnik" module in the third semester of my course.
 It was an agile project using Scrum and was written in Java with the GUI components being created using JavaFX.
@@ -42,7 +44,9 @@ The details for the user account are:
 - password: MusterPW
 
 ### Flight Radar
-![Screenshot of flight radar in operation](/_screenshots/flightradar.png)
+<p align="center">
+  <img src="/_screenshots/flightradar.png" height="500" alt="Screenshot of flight radar in operation">
+</p>
 
 The flight radar was created as part of the lab for the "Objektorientierte Systeme 2" module in the third semester of my course.
 
@@ -55,7 +59,9 @@ However, most was written by me and the authors of the file are stated at the be
 Note: The final project uses the "Acamo.java" file in "FlightRadar\src\acamo" as its main file.
 
 ### Minesweeper
-![Screenshot of Minesweeper](/_screenshots/minesweeper.png)
+<p align="center">
+  <img src="/_screenshots/minesweeper.png" height="500" alt="Screenshot of Minesweeper">
+</p>
 
 This Minesweeper game was created as part of the lab for the "Internet-Technologien" module in the third semester of my course.
 
@@ -68,11 +74,15 @@ This can be set by changing the script in line 15 to localLogic or remoteLogic r
 
 Server logic communicates with a remote server set up by the lecturer to define a playing field and decide which fields to open, etc.
 
+As a "mobile first" application, it is designed primarily for mobile screens but also works perfectly on desktop computers.
+
 ## Personal Projects
 These projects were created because of personal interest.
 
 ### Jason's RPG Tool
-![Screenshot of the Asterius RPG mode of the RPG Tool](/_screenshots/rpgtool.png)
+<p align="center">
+  <img src="/_screenshots/rpgtool.png" height="500" alt="Screenshot of the Asterius RPG mode of the RPG Tool">
+</p>
 
 There are various tools for many of the mainstream tabletop RPGs like Dungeons and Dragons available.
 However, when going with a homebrew approach, a custom tool is needed when you want everything to be in one place.
@@ -93,7 +103,9 @@ Features:
 - Dice roll function that also allows custom dice
 
 ### Snake
-![Screenshot of Snake](/_screenshots/snake.png)
+<p align="center">
+  <img src="/_screenshots/snake.png" height="500" alt="Screenshot of Snake">
+</p>
 
 This Snake game was created over the course of a couple of hours as a way of our IT teacher keeping the advanced students occupied while he went over the basics again with the less advanced students.
 
