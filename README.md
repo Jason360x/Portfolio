@@ -29,6 +29,10 @@ My concrete responsibility was the functionality of the book returns.
 
 (see "LibraryProject\src\main\java\swt\library\ReturnBookController.java" and "LibraryProject\src\main\resources\swt\library\returnBook.fxml")
 
+<p align="center">
+  <img src="/_screenshots/library_return.png" height="500" alt="Screenshot of the return page of the library project">
+</p>
+
 I:
 - ...created the GUI and logic for the return of the books.
 - ...helped create the DB table for the list of borrowed books and conceptionalized the return logic.
@@ -70,6 +74,7 @@ It uses JavaScript to build the page and the game logic and CSS to style the pag
 The game can run in 2 modes:
 - Local
 - Server
+
 This can be set by changing the script in line 15 to localLogic or remoteLogic respectively.
 
 Server logic communicates with a remote server set up by the lecturer to define a playing field and decide which fields to open, etc.
