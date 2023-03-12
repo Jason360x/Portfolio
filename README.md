@@ -82,6 +82,7 @@ Features:
 ![Screenshot of Snake](/_screenshots/snake.png)
 
 This Snake game was created over the course of a couple of hours as a way of our IT teacher keeping the advanced students occupied while he went over the basics again with the less advanced students.
+
 Our only task was to try and create a Snake game in any way we wanted.
 
 I decided to use the Unity Engine as the base for the game and C# as the programming language.
