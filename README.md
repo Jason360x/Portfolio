@@ -6,7 +6,7 @@ These projects were created as part of a module or class of my course.
 
 ### Library Project
 <p align="center">
-  <img src="/_screenshots/library.png" height="500" alt="Screenshot of the frontpage of the library project">
+  <img src="/_screenshots/library.png" alt="Screenshot of the frontpage of the library project">
 </p>
 
 The library project was part of the "Softwaretechnik" module in the third semester of my course.
@@ -30,7 +30,7 @@ My concrete responsibility was the functionality of the book returns.
 (see "LibraryProject\src\main\java\swt\library\ReturnBookController.java" and "LibraryProject\src\main\resources\swt\library\returnBook.fxml")
 
 <p align="center">
-  <img src="/_screenshots/library_return.png" height="500" alt="Screenshot of the return page of the library project">
+  <img src="/_screenshots/library_return.png" alt="Screenshot of the return page of the library project">
 </p>
 
 I:
@@ -64,7 +64,7 @@ Note: The final project uses the "Acamo.java" file in "FlightRadar\src\acamo" as
 
 ### Minesweeper
 <p align="center">
-  <img src="/_screenshots/minesweeper.png" height="500" alt="Screenshot of Minesweeper">
+  <img src="/_screenshots/minesweeper.png" alt="Screenshot of Minesweeper">
 </p>
 
 This Minesweeper game was created as part of the lab for the "Internet-Technologien" module in the third semester of my course.
@@ -86,7 +86,7 @@ These projects were created because of personal interest.
 
 ### Jason's RPG Tool
 <p align="center">
-  <img src="/_screenshots/rpgtool.png" height="500" alt="Screenshot of the Asterius RPG mode of the RPG Tool">
+  <img src="/_screenshots/rpgtool.png" alt="Screenshot of the Asterius RPG mode of the RPG Tool">
 </p>
 
 There are various tools for many of the mainstream tabletop RPGs like Dungeons and Dragons available.
@@ -109,7 +109,7 @@ Features:
 
 ### Snake
 <p align="center">
-  <img src="/_screenshots/snake.png" height="500" alt="Screenshot of Snake">
+  <img src="/_screenshots/snake.png" alt="Screenshot of Snake">
 </p>
 
 This Snake game was created over the course of a couple of hours as a way of our IT teacher keeping the advanced students occupied while he went over the basics again with the less advanced students.
