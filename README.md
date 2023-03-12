@@ -54,6 +54,20 @@ However, most was written by me and the authors of the file are stated at the be
 
 Note: The final project uses the "Acamo.java" file in "FlightRadar\src\acamo" as its main file.
 
+### Minesweeper
+![Screenshot of Minesweeper](/_screenshots/minesweeper.png)
+
+This Minesweeper game was created as part of the lab for the "Internet-Technologien" module in the third semester of my course.
+
+It uses JavaScript to build the page and the game logic and CSS to style the page.
+
+The game can run in 2 modes:
+- Local
+- Server
+This can be set by changing the script in line 15 to localLogic or remoteLogic respectively.
+
+Server logic communicates with a remote server set up by the lecturer to define a playing field and decide which fields to open, etc.
+
 ## Personal Projects
 These projects were created because of personal interest.
 
