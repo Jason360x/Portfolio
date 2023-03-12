@@ -2,7 +2,8 @@
 This is my personal portfolio of projects.
 
 ## Library Project
-![Screenshot of the frontpage of the library project](https://github.com/Jason360x/Portfolio/tree/main/_screenshots/library.png)
+![Screenshot of the frontpage of the library project](/_screenshots/library.png)
+
 The library project was part of the "Softwaretechnik" module in the third semester of my course.
 It was an agile project using Scrum and was written in Java with the GUI components being created using JavaFX.
 
@@ -38,23 +39,29 @@ The details for the user account are:
 - password: MusterPW
 
 ## Jason's RPG Tool
+![Screenshot of the Asterius RPG mode of the RPG Tool](/_screenshots/rpgtool.png)
+
 There are various tools for many of the mainstream tabletop RPGs like Dungeons and Dragons available.
 However, when going with a homebrew approach, a custom tool is needed when you want everything to be in one place.
 My RPG Tool is specifically set up for two different homebrew RPGs me and a friend of mine created.
 
 With over 9000 executable lines of code, the project is fairly big.
+
 Note that every line of code was created while I was first learning to program in 2019 and as such, much of the code is very messy and ignores many programming and OOP principles and best practices. Even then, I think it is still useful as a showcase of a fully working program I created.
+
 The project is written in C# using Visual Studio. The GUI was created using Windows Forms.
 
 Features:
 - 2 RPGs implemented with their respective rulesets
-- Automatic switch to english language if the current locale is not german
+- Automatic switch to english language if the current locale is not German
 - Creation of save file using XML
 - Import and export of save files using .zip
 - Shop function that allows the creation of an item table and later display in the respective RPG
 - Dice roll function that also allows custom dice
 
 ## Flight Radar
+![Screenshot of flight radar in operation](/_screenshots/flightradar.png)
+
 The flight radar was created as part of the lab for the "Objektorientierte Systeme 2" module in the third semester of my course.
 
 It fetches real time plane data from an online API (https://opensky-network.org/api/states/all) and displays each received plane on a map and in a list.
