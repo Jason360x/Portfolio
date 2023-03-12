@@ -45,7 +45,7 @@ The details for the user account are:
 
 ### Flight Radar
 <p align="center">
-  <img src="/_screenshots/flightradar.png" height="500" alt="Screenshot of flight radar in operation">
+  <img src="/_screenshots/flightradar.png" alt="Screenshot of flight radar in operation">
 </p>
 
 The flight radar was created as part of the lab for the "Objektorientierte Systeme 2" module in the third semester of my course.
