@@ -82,7 +82,7 @@ Server logic communicates with a remote server set up by the lecturer to define 
 As a "mobile first" application, it is designed primarily for mobile screens but also works perfectly on desktop computers.
 
 ## Personal Projects
-These projects were created because of personal interest.
+These projects were created out of personal interest.
 
 ### Jason's RPG Tool
 <p align="center">
