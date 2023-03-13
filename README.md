@@ -13,7 +13,7 @@ The library project was part of the "Softwaretechnik" module in the third semest
 It was an agile project using Scrum and was written in Java with the GUI components being created using JavaFX.
 
 The program supports logging in with a user and, depending on the user's privileges, add and remove books from the library and/or borrow and return books.
-It was meant to be a management software for a fictitious library.
+It was created to be a management software for a fictitious library.
 
 Please note that many GUI elements, especially on the main page, only serve decorative functions and have not been implemented because of the nature of the project's scope.
 
