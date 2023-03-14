@@ -90,7 +90,7 @@ These projects were created out of personal interest.
 </p>
 
 There are various tools for many of the mainstream tabletop RPGs like Dungeons and Dragons available.
-However, when going with a homebrew approach, a custom tool is needed when you want everything to be in one place.
+However, when going with a homebrew approach, a custom tool is needed if you want everything to be in one place.
 My RPG Tool is specifically set up for two different homebrew RPGs me and a friend of mine created.
 
 With over 9000 executable lines of code, the project is fairly big.
