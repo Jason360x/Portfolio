@@ -9,7 +9,7 @@ These projects were created as part of a module or class of my course.
   <img src="/_screenshots/library.png" alt="Screenshot of the frontpage of the library project">
 </p>
 
-The library project was part of the "Softwaretechnik" module in the third semester of my course.
+The library project was part of the Software Engineering module of the third semester of my course.
 It was an agile project using Scrum and was written in Java with the GUI components being created using JavaFX.
 
 The program supports logging in with a user and, depending on the user's privileges, add and remove books from the library and/or borrow and return books.
@@ -52,7 +52,7 @@ The details for the user account are:
   <img src="/_screenshots/flightradar.png" alt="Screenshot of flight radar in operation">
 </p>
 
-The flight radar was created as part of the lab for the "Objektorientierte Systeme 2" module in the third semester of my course.
+The flight radar was created as part of the lab for the Object Oriented Systems 2 module of the third semester of my course.
 
 It fetches real time plane data from an online API (https://opensky-network.org/api/states/all) and displays each received plane on a map and in a list.
 It is written in Java, the GUI elements are created using JavaFX.
@@ -67,7 +67,7 @@ Note: The final project uses the "Acamo.java" file in "FlightRadar\src\acamo" as
   <img src="/_screenshots/minesweeper.png" alt="Screenshot of Minesweeper">
 </p>
 
-This Minesweeper game was created as part of the lab for the "Internet-Technologien" module in the third semester of my course.
+This Minesweeper game was created as part of the lab for the Internet Technology module of the third semester of my course.
 
 It uses JavaScript to build the page and the game logic and CSS to style the page.
 
