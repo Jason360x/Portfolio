@@ -4,6 +4,32 @@ This is my personal portfolio of projects.
 ## Study Projects
 These projects were created as part of a module or class of my course.
 
+### Sport-Challenge-Project
+<p align="center">
+  <img src="/_screenshots/scp.png" alt="Screenshot of the frontpage of the Sport-Challenge-Project">
+</p>
+
+The Sport-Challenge-Project was conducted as part of our fourth semester class "Projekt Softwaretechnik". It was created for and under the guidance of doubleSlash Net-Business GmbH. We were tasked with creating a web plattform for their internal "Sport-Challenge" program where employees can group up in teams and are rewarded for being active.
+
+Our platform uses a three tier architecture. It authenticates users via SAML and allows them to create and manage Challenges, Sports and timed Bonuses, as well as documenting their Activities for a specific challenge. The app uses no form of authorization, thus any user is permitted to do any action.
+
+It uses the following underlying technologies:
+
+- React (Frontend)
+- Spring Boot (Backend)
+- PostgreSQL (Backend Database)
+- Keycloak (SAML Provider - can be swapped out with any other correctly configured SAML provider)
+
+The team consisted of the following members:
+- Jason Patrick Duffy
+- Robin Hackh
+- Tom Nguyen Dinh
+- Mason Schönherr
+
+I served as Full-Stack-Developer, Scrum-Master and Team- Backend- and DB-Lead. My responsibilites were to manage the team and the project as a whole, as well as making sure our defined rules were followed correctly.
+
+For more information on this project, please take a look at the [repository](https://github.com/JasonDuffy/Sport-Challenge-Project) and the included documentation (German).
+
 ### Library Project
 <p align="center">
   <img src="/_screenshots/library.png" alt="Screenshot of the frontpage of the library project">
